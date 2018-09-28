@@ -31,7 +31,7 @@ Uma arquitetura de camada fechada limita as dependências entre camadas. No enta
 
 ## <a name="when-to-use-this-architecture"></a>Quando usar essa arquitetura
 
-Arquiteturas de N camadas normalmente são implementadas como aplicativos IaaS (infraestrutura como serviço), com cada camada em execução em um conjunto separado de VMs. No entanto, um aplicativo de N camadas não precisa ser IaaS pura. Muitas vezes é vantajoso usar serviços gerenciados para algumas partes da arquitetura, particularmente cache, mensagens e armazenamento de dados.
+Arquiteturas de N camadas normalmente são implementadas como aplicativos IaaS (infraestrutura como serviço), com cada camada em execução em um conjunto separado de VMs. No entanto, um aplicativo de N camadas não precisa ser IaaS puro. Muitas vezes é vantajoso usar serviços gerenciados para algumas partes da arquitetura, particularmente cache, mensagens e armazenamento de dados.
 
 Considere uma arquitetura de N camadas para:
 
